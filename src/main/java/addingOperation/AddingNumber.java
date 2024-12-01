@@ -16,6 +16,6 @@ protected void service(HttpServletRequest req, HttpServletResponse resp) throws 
 	int i=Integer.parseInt(req.getParameter("num1"));
 	int j=Integer.parseInt(req.getParameter("num2"));
 	int k=i+j;
-	resp.getWriter().println("result is" + k);
+	resp.getWriter().println("<h1>result is</h1>"+ k);
 }
 }
